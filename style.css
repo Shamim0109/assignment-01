@@ -47,3 +47,80 @@
     width: 24px;
     height: 24px;
 }
+/* My Plans */
+.my-plans{
+    text-align: center;
+    padding: 5px 230px;
+}
+.my-plans h1{
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-style: bolder;
+}
+.my-plans .my-plans-contant{
+    display: flex;
+    gap: 86px;
+    justify-content: space-between;
+}
+.my-plans .my-plans-contant h3{
+    font-size: 30px;
+    font-size: bolder;
+}
+.my-plans .my-plans-contant p{
+    font-size: 25px;
+}
+/* Watch style */
+.watch{
+    margin: 130px 230px;
+    padding: 60px 64px;
+    background-image: url(images/watch.png);
+    background-size: cover;
+}
+.watch h1{
+    font-size: 40px;
+    font-style: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.watch button{
+    font-size: 20px;
+    color: #005FAc;
+    padding: 21px 36px;
+    border-radius: 5px;
+    border: 0;
+
+}
+/* Footer */
+.footer{
+    background-color: #151414;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+.footer-future h1{
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.footer-future p{
+    font-size: 16px;
+}
+.footer-future img{
+    margin-right: 17px;
+}
+.footer-subscribe h3{
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+.footer-subscribe input{
+    padding: 21px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+.footer-subscribe button{
+    border: 0;
+    border-radius: 8px;
+    padding: 20px 36px;
+    font-size: 20px;
+}
