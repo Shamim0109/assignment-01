@@ -69,11 +69,51 @@
 .my-plans .my-plans-contant p{
     font-size: 25px;
 }
+/* About Mr.X */
+.mr-x{
+    padding: 130px 230px;
+    background-color: #f0f1f192;;
+}
+.mr-x .x{
+    text-align: center;
+    font-size: 45px;
+    font-style: bolder;
+}
+.about-mr-x{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 8px 8px -4px lightblue;
+    padding: 30px;
+}
+.about-mr-x-contant{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    text-align: center;
+}
+.details-mr-x{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 30px;
+}
+.details-mr-x-contant button{
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #005FAc;
+    border-radius: 5px;
+    color: #005FAc;
+}
+.mr-x-m{
+    border-right: 1px solid rgba(0, 0, 0, 0.159);
+    padding-right: 15px;
+}
 /* Watch style */
 .watch{
     margin: 130px 230px;
     padding: 60px 64px;
-    background-image: url(images/watch.png);
+    /*background-image: url(images/watch.png);*/
+    background-image: linear-gradient(to left,rgba(0, 95, 172, 0),rgba(0, 95, 172, 1)),url(images/watch.png);
     background-size: cover;
 }
 .watch h1{
