@@ -1,0 +1,49 @@
+/* Headert Style */
+.header{
+    padding: 216px 230px 170px 230px;
+    background-image: url(images/banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+.header h1{
+    font-size: 65px;
+    font-style: bold;
+    color: #FFFFFF;
+}
+.header p{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.header button{
+    margin-top: 53px;
+    padding: 21px 25px;
+    font-size: 20px;
+    color: #005FAc;
+    border-radius: 5px;
+    border: 0;
+}
+/* my-failures */
+.my-failures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 87px;
+    padding: 130px 322px 130px 206px;
+
+}
+.my-failures-content h2{
+    font-size: 40px;
+    font-style: bolder;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.my-failures-content p{
+    font-size: 16px;
+    color: #444343;
+}
+.my-failures-content p i{
+    color: #16D887;
+    width: 24px;
+    height: 24px;
+}
